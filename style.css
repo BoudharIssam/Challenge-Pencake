@@ -1,0 +1,180 @@
+/* STYLE GENERAL */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px/20px "Lato", Arial, sans-serif;
+  margin: auto;
+  color: #505050;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin: 50px 0 150px 0;
+  font-size: 56px;
+  color: #ec9b3b;
+}
+
+/* CONTAINER CARD  */
+.container-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container-recipe {
+  margin: 100px 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pancake-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px rgb(194, 10, 10);
+  z-index: 2;
+}
+.pancake-card__img {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.pancake-card__img img {
+  width: 350px;
+  position: absolute;
+  top: -75px;
+  left: -23px;
+}
+
+.title {
+  font-size: 26px;
+  color: rgb(194, 10, 10);
+  font-weight: 900;
+}
+.description {
+  padding: 20px;
+  margin-bottom: 10px;
+  color: #9e9e9e;
+}
+.unit-stats {
+  background: #ec9b3b;
+}
+
+.unit-stats .case {
+  border-right: 1px solid #bd7c2f;
+}
+
+.unit-stats {
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.unit-stats .case {
+  width: 33%;
+  float: left;
+  padding: 20px 15px;
+}
+.unit-stats sup {
+  position: absolute;
+  bottom: 4px;
+  font-size: 45%;
+  margin-left: 2px;
+}
+.stat {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.stat-value {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+.unit-stats .no-border {
+  border-right: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+
+/* CONTAINER RECIPE  */
+
+ul {
+  margin-bottom: 56px;
+  margin-left: 24px;
+}
+
+li {
+  padding-top: 7px;
+  font-size: 18px;
+}
+
+li:last-child {
+  margin-bottom: 24px;
+}
+
+li::marker {
+  color: #ec9b3b;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 44px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: #ec9b3b;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.last-title {
+  margin-top: 56px;
+}
+
+P{
+  font-size: 18px;
+}
+.word-color{
+ color: #ec9b3b;
+}
